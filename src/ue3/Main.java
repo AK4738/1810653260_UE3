@@ -1,3 +1,5 @@
+package ue3;
+
 import javax.swing.*;
 
 public class Main {
@@ -5,6 +7,12 @@ public class Main {
     public static void main(String[] args) {
     paritalString(JOptionPane.showInputDialog("Geben Sie einen Text ein:"));
 
+    //Aufgabe 3
+
+        System.out.println(Taschenrechner.addition(3.5,5));
+        System.out.println(Taschenrechner.subtraktion(3.5,5));
+        System.out.println(Taschenrechner.multiplikation(3.5,5));
+        System.out.println(Taschenrechner.division(3.5,5));
     }
 
     public static void paritalString(String a){
